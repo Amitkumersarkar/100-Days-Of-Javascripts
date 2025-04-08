@@ -6,4 +6,8 @@ const products = [
 ];
 
 const models = products.map(product => product.model);
-console.log(models);
+// console.log(models);
+
+// forEach 
+
+products.forEach(product => console.log(product.price));
