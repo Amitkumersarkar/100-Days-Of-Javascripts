@@ -8,6 +8,6 @@ const products = [
 const models = products.map(product => product.model);
 // console.log(models);
 
-// forEach 
+// forEach declaration
 
 products.forEach(product => console.log(product.price));
